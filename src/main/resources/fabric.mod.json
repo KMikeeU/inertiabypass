@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "inertiabypass",
+  "version": "${version}",
+  "name": "Inertia Bypass",
+  "description": "Inertia AntiCheat bypass PoC",
+  "authors": ["mikee.dev"],
+  "contact": {
+    "repo": "https://github.com/KMikeeU/inertiabypass"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "inertiabypass.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
